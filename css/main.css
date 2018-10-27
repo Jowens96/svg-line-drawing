@@ -1,5 +1,5 @@
 html {
-  font-family: 'Unica One', cursive;
+  font-family: "Unica One", sans-serif;
   color: #fff;
 }
 
@@ -12,8 +12,7 @@ html {
   position: absolute;
   top: 8rem;
   left: 3rem;
-  z-index: 1
-
+  z-index: 1;
 }
 
 /* FADE IN ANIMATION SECTION */
@@ -36,6 +35,7 @@ html {
 
 #narwhal-eye {
   animation: fade 1s linear forwards;
+  opacity: 0;
 }
 
 @keyframes fade {
@@ -53,7 +53,7 @@ html {
 /* LINE ANIMATION SECTION */
 
 #rainbow-violet {
-  animation: violetline 1s linear forwards ;
+  animation: violetline 1s linear forwards;
   stroke-dasharray: 2556.9216px; /* The length of the stroke */
   stroke-dashoffset: 2556.9216px; /* The length of the stroke */
 }
@@ -71,7 +71,7 @@ html {
 }
 
 #rainbow-indigo {
-  animation: indigoline 1s linear forwards ;
+  animation: indigoline 1s linear forwards;
   stroke-dasharray: 2416.6656px; /* The length of the stroke */
   stroke-dashoffset: 2416.6656px; /* The length of the stroke */
 }
@@ -89,7 +89,7 @@ html {
 }
 
 #rainbow-blue {
-  animation: blueline 1s linear forwards ;
+  animation: blueline 1s linear forwards;
   stroke-dasharray: 2273.9712px; /* The length of the stroke */
   stroke-dashoffset: 2273.9712px; /* The length of the stroke */
 }
@@ -107,7 +107,7 @@ html {
 }
 
 #rainbow-green {
-  animation: greenline 1s linear forwards ;
+  animation: greenline 1s linear forwards;
   stroke-dasharray: 2128.0608px; /* The length of the stroke */
   stroke-dashoffset: 2128.0608px; /* The length of the stroke */
 }
@@ -125,7 +125,7 @@ html {
 }
 
 #rainbow-yellow {
-  animation: yellowline 1s linear forwards ;
+  animation: yellowline 1s linear forwards;
   stroke-dasharray: 1977.8016px; /* The length of the stroke */
   stroke-dashoffset: 1977.8016px; /* The length of the stroke */
 }
@@ -143,7 +143,7 @@ html {
 }
 
 #rainbow-orange {
-  animation: orangeline 1s linear forwards ;
+  animation: orangeline 1s linear forwards;
   stroke-dasharray: 1821.6768px; /* The length of the stroke */
   stroke-dashoffset: 1821.6768px; /* The length of the stroke */
 }
@@ -161,7 +161,7 @@ html {
 }
 
 #rainbow-red {
-  animation: redline 1s linear forwards ;
+  animation: redline 1s linear forwards;
   stroke-dasharray: 1657.392px; /* The length of the stroke */
   stroke-dashoffset: 1657.392px; /* The length of the stroke */
 }
@@ -170,6 +170,26 @@ html {
 
   0% {
     stroke-dashoffset: 1657.392px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+/* NARWHAL BODY ANIMATION */
+
+#narwhal-body {
+  animation: narwhalline 1s linear forwards;
+  stroke-dasharray: 2545.056px; /* The length of the stroke */
+  stroke-dashoffset: 2545.056px; /* The length of the stroke */
+}
+
+@keyframes narwhalline {
+
+  0% {
+    stroke-dashoffset: 2545.056px;
   }
 
   100% {

@@ -16,6 +16,42 @@ html {
 
 }
 
+/* FADE IN ANIMATION SECTION */
+
+#title {
+  animation: fade 1s linear forwards;
+}
+
+@keyframes fade {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#narwhal-eye {
+  animation: fade 1s linear forwards;
+}
+
+@keyframes fade {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+/* LINE ANIMATION SECTION */
+
 #rainbow-violet {
   animation: violetline 1s linear forwards ;
   stroke-dasharray: 2556.9216px; /* The length of the stroke */
@@ -44,6 +80,96 @@ html {
 
   0% {
     stroke-dashoffset: 2416.6656px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-blue {
+  animation: blueline 1s linear forwards ;
+  stroke-dasharray: 2273.9712px; /* The length of the stroke */
+  stroke-dashoffset: 2273.9712px; /* The length of the stroke */
+}
+
+@keyframes blueline {
+
+  0% {
+    stroke-dashoffset: 2273.9712px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-green {
+  animation: greenline 1s linear forwards ;
+  stroke-dasharray: 2128.0608px; /* The length of the stroke */
+  stroke-dashoffset: 2128.0608px; /* The length of the stroke */
+}
+
+@keyframes greenline {
+
+  0% {
+    stroke-dashoffset: 2128.0608px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-yellow {
+  animation: yellowline 1s linear forwards ;
+  stroke-dasharray: 1977.8016px; /* The length of the stroke */
+  stroke-dashoffset: 1977.8016px; /* The length of the stroke */
+}
+
+@keyframes yellowline {
+
+  0% {
+    stroke-dashoffset: 1977.8016px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-orange {
+  animation: orangeline 1s linear forwards ;
+  stroke-dasharray: 1821.6768px; /* The length of the stroke */
+  stroke-dashoffset: 1821.6768px; /* The length of the stroke */
+}
+
+@keyframes orangeline {
+
+  0% {
+    stroke-dashoffset: 1821.6768px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-red {
+  animation: redline 1s linear forwards ;
+  stroke-dasharray: 1657.392px; /* The length of the stroke */
+  stroke-dashoffset: 1657.392px; /* The length of the stroke */
+}
+
+@keyframes redline {
+
+  0% {
+    stroke-dashoffset: 1657.392px;
   }
 
   100% {

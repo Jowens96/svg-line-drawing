@@ -1,1 +1,53 @@
-font-family: 'Unica One', cursive;
+html {
+  font-family: 'Unica One', cursive;
+  color: #fff;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  position: absolute;
+  top: 8rem;
+  left: 3rem;
+  z-index: 1
+
+}
+
+#rainbow-violet {
+  animation: violetline 1s linear forwards ;
+  stroke-dasharray: 2556.9216px; /* The length of the stroke */
+  stroke-dashoffset: 2556.9216px; /* The length of the stroke */
+}
+
+@keyframes violetline {
+
+  0% {
+    stroke-dashoffset: 2416.6656px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-indigo {
+  animation: indigoline 1s linear forwards ;
+  stroke-dasharray: 2416.6656px; /* The length of the stroke */
+  stroke-dashoffset: 2416.6656px; /* The length of the stroke */
+}
+
+@keyframes indigoline {
+
+  0% {
+    stroke-dashoffset: 2416.6656px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
